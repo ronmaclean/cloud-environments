@@ -1,0 +1,5 @@
+# Override configuration from https://github.com/ronmaclean/helm-charts/blob/master/values.yaml
+exposecontroller:
+  exposecontroller:
+    HTTP: "true"
+    TLSACME: "false"
