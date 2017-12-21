@@ -1,6 +1,6 @@
 CHART_REPO := http://chartmuseum.thunder.thunder.fabric8.io
 CHART := helm-charts
-CHART_VERSION := 0.0.7
+CHART_VERSION := 0.0.8
 OS := $(shell uname)
 HELM := $(shell command -v helm 2> /dev/null)
 NAME := projectx
